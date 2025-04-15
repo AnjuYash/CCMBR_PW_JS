@@ -1,0 +1,26 @@
+{
+  "name": "playwright-cucumber-demo",
+  "version": "1.0.0",
+  "description": "Automated UI testing using Playwright and Cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cucumber-js --format json:html-report/cucumber-report.json",
+    "posttest": "node html-report/report.js"
+  },
+  "keywords": ["playwright", "cucumber", "automation", "testing"],
+  "author": "Your Name",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.14.0",
+    "chai": "^5.2.0",
+    "cucumber-html-reporter": "^7.2.0",
+    "cucumberjs-playwright-reporter": "^2.0.3",
+    "multiple-cucumber-html-reporter": "^3.9.2"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^11.2.0",
+    "assert": "^2.1.0",
+    "playwright": "^1.51.1"
+  }
+}
