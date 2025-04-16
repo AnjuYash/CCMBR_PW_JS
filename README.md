@@ -2,6 +2,8 @@ Playwright with CucumberJS(JavaScript) E2E Test Framework
 
 This repository contains automated tests for the SauceDemo e-commerce website using Playwright and Cucumber-JS. These tests cover various scenarios, including user login, product management, and checkout processes. 
 
+## Project Structure
+```bash
 ├── .github/                # GitHub workflows (CI/CD)
 ├── feature/                # Feature files in Gherkin format
 │   ├── cart.feature
@@ -28,20 +30,29 @@ This repository contains automated tests for the SauceDemo e-commerce website us
 ├── package-lock.json
 ├── package.json            # Project metadata and scripts
 └── playwright.config.js    # Playwright configuration
-
+```
 
 ## Getting Started
 
  To run the automated tests locally, follow these steps:
 
+ Prerequisites
+ Node.js >= 14.x
+ npm >= 6.x
+  
 ## Install project dependencies:
  npm install
 
 ## Run the tests:
 
- npm test - To run all feature scenarios
+ npm test/npm test run - To run all feature scenarios
+   
+ Running with Tags:
+ npx cucumber-js --tags "@login"
+ 
+ Generate HTML Report using:
+ npm run generate-report
 
- npm run generate-report - to generate HTML report for executed tests
 
 ## Scenarios
 
@@ -61,41 +72,23 @@ JavaScript,
 Node.js ,
 cucumber-js,
 cucumber-html-reporter
-
-
-Prerequisites
- Node.js >= 14.x
- npm >= 6.x
-  
-Installation
- npm install
  
-Running Tests
- npm test run
-  
-Running with Tags
- npx cucumber-js --tags "@login"
- 
-Generate HTML Report using
- npm run generate-report
- 
- 
-Writing Tests
+## Writing Tests
  Feature Files: Located in the feature/ folder. Written in Gherkin syntax to define the test scenarios.
  Steps: Implemented in the tests/steps/ folder to link Gherkin steps with code.
  Page Objects: Reusable selectors and methods are defined in the tests/pages/ folder for modular test organization.
  
  
-Hooks
+## Hooks
  Use hooks.js to define setup and teardown operations such as:
  - Launching the browser
  - Capturing screenshots on failure and passed
  - Closing the browser
  
-Utilities
+## Utilities
  Common helper functions and constants are stored in the /utility/ directory. These are used across multiple test files for consistency and reusability.
 
-Supported Browsers:
+## Supported Browsers
  - chromium
  - firefox
  - webkit
