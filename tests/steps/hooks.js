@@ -14,7 +14,7 @@ ensureDirectoryExists(logsDir);
 let browser, context, page;
 
 // Launch browser only ONCE before all scenarios
-BeforeAll(async () => {
+BeforeAll({ timeout: 20000},async () => {
   console.log(`🔄 Starting test suite...`);
 
   // Get the browser name from an environment variable (default is chromium)
