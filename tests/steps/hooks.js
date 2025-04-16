@@ -33,7 +33,7 @@ BeforeAll(async () => {
     case 'chromium':
     default:
       console.log(`Launching Chromium browser...`);
-      browser = await chromium.launch({ headless: false, slowMo: 300 });
+      browser = await chromium.launch({ headless: true, slowMo: 300 });
       break;
   }
 

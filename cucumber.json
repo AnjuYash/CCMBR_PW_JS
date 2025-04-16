@@ -11,7 +11,7 @@
       "dryRun": false,
       "require": [
         "tests/steps/*.js",
-        "tests/hooks/*.js"
+        "tests/steps/hooks/*.js"
       ]
     }
   }
