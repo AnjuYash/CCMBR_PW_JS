@@ -54,29 +54,52 @@ const launchBrowser = async (headless = true, slowMo = 0, timeout = 15000) => {
 
 // Function to close the browser
 const closeBrowser = async () => {
-    try {
-      if (page && !page.isClosed()) {
-        await page.close();
-        console.log(`Page closed.`);
-      }
-      if (context) {
-        await context.close();
-        console.log(`Context closed.`);
-      }
-      if (browser) {
-        await browser.close();
-        console.log(`Browser closed.`);
-      }
-    } catch (error) {
-      console.error(`Failed to close browser: ${error.message}`);
-      throw error;
+  try {
+    if (page && !page.isClosed()) {
+      await page.close();
+      console.log(`Page closed.`);
     }
-  };
-  
+    if (context) {
+      await context.close();
+      console.log(`Context closed.`);
+    }
+    if (browser) {
+      await browser.close();
+      console.log(`Browser closed.`);
+    }
+  } catch (error) {
+    console.error(`Failed to close browser: ${error.message}`);
+    throw error;
+  }
+};
+
+// Function for clicking an element
+const click = async (page, selector) => {
+  try {
+    await page.waitForSelector(selector, { timeout: 10000 });
+    await page.click(selector);
+    console.log(`Clicked element: ${selector}`);
+  } catch (error) {
+    console.error(`Failed to click: ${selector}. Error: ${error.message}`);
+  }
+};
+
+// Function for entering text into an input field
+const sendKeys = async (page, selector, value) => {
+  try {
+    await page.waitForSelector(selector, { timeout: 10000 });
+    await page.fill(selector, value);
+    console.log(`Entered value in ${selector}: ${value}`);
+  } catch (error) {
+    console.error(`Failed to enter value: ${value} in ${selector}. Error: ${error.message}`);
+  }
+};
 
 module.exports = {
   ensureDirectoryExists,
   captureScreenshot,
   launchBrowser,
   closeBrowser,
+  click,       // Added click function
+  sendKeys,    // Added sendKeys function
 };

@@ -14,20 +14,20 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1269800
+              "duration": 1000199
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 4,
-            "name": "I have items in the cart",
+            "name": "User have items in the cart",
             "match": {
               "location": "tests\\steps\\carttSteps.js:7"
             },
             "result": {
               "status": "passed",
-              "duration": 397331599
+              "duration": 301599900
             },
             "embeddings": [
               {
@@ -40,13 +40,13 @@
             "arguments": [],
             "keyword": "When ",
             "line": 5,
-            "name": "I proceed to checkout",
+            "name": "User proceed to checkout",
             "match": {
               "location": "tests\\steps\\carttSteps.js:11"
             },
             "result": {
               "status": "passed",
-              "duration": 118546299
+              "duration": 112720198
             },
             "embeddings": [
               {
@@ -59,13 +59,13 @@
             "arguments": [],
             "keyword": "And ",
             "line": 6,
-            "name": "I fill shipping details with \"Anju\", \"Singh\", and \"12345\"",
+            "name": "User fill shipping details with \"Anju\", \"Singh\", and \"12345\"",
             "match": {
               "location": "tests\\steps\\carttSteps.js:20"
             },
             "result": {
               "status": "passed",
-              "duration": 114976699
+              "duration": 116233099
             },
             "embeddings": [
               {
@@ -78,13 +78,13 @@
             "arguments": [],
             "keyword": "Then ",
             "line": 7,
-            "name": "I verify the total price accuracy",
+            "name": "User verify the total price accuracy",
             "match": {
               "location": "tests\\steps\\carttSteps.js:29"
             },
             "result": {
               "status": "passed",
-              "duration": 113514100
+              "duration": 115571199
             },
             "embeddings": [
               {
@@ -97,13 +97,13 @@
             "arguments": [],
             "keyword": "And ",
             "line": 8,
-            "name": "I complete the checkout",
+            "name": "User complete the checkout",
             "match": {
               "location": "tests\\steps\\carttSteps.js:44"
             },
             "result": {
               "status": "passed",
-              "duration": 105009499
+              "duration": 113907499
             },
             "embeddings": [
               {
@@ -114,15 +114,15 @@
           },
           {
             "arguments": [],
-            "keyword": "And ",
+            "keyword": "Then ",
             "line": 9,
-            "name": "I verify the Thank You page",
+            "name": "User verify the Thank You page",
             "match": {
               "location": "tests\\steps\\carttSteps.js:53"
             },
             "result": {
               "status": "passed",
-              "duration": 110069399
+              "duration": 115343199
             },
             "embeddings": [
               {
@@ -136,7 +136,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 101929100
+              "duration": 99716500
             }
           }
         ],
@@ -152,7 +152,7 @@
     "uri": "features\\cart.feature"
   },
   {
-    "description": "  As a user\n  I want to log in to SauceDemo with valid credentials\n  So that I can access the application successfully",
+    "description": "  As a user\n  want to log in to SauceDemo with valid credentials\n  So that I can access the application successfully",
     "elements": [
       {
         "description": "",
@@ -166,20 +166,20 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 439600
+              "duration": 525899
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 8,
-            "name": "I am on the SauceDemo login page",
+            "name": "User on the SauceDemo login page",
             "match": {
               "location": "tests\\steps\\loginSteps.js:7"
             },
             "result": {
               "status": "passed",
-              "duration": 1535777199
+              "duration": 2573881899
             },
             "embeddings": [
               {
@@ -192,13 +192,13 @@
             "arguments": [],
             "keyword": "When ",
             "line": 11,
-            "name": "I log in with \"standard_user\" and \"secret_sauce\"",
+            "name": "User log in with \"standard_user\" and \"secret_sauce\"",
             "match": {
               "location": "tests\\steps\\loginSteps.js:12"
             },
             "result": {
               "status": "passed",
-              "duration": 1326742099
+              "duration": 1815250100
             },
             "embeddings": [
               {
@@ -211,13 +211,13 @@
             "arguments": [],
             "keyword": "Then ",
             "line": 12,
-            "name": "I should be logged in successfully",
+            "name": "User should be logged in successfully",
             "match": {
               "location": "tests\\steps\\loginSteps.js:17"
             },
             "result": {
               "status": "passed",
-              "duration": 239154999
+              "duration": 175499700
             },
             "embeddings": [
               {
@@ -231,7 +231,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 145973500
+              "duration": 134153299
             }
           }
         ],
@@ -271,20 +271,20 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 563299
+              "duration": 392799
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 4,
-            "name": "I am logged into SauceDemo",
+            "name": "User logged into SauceDemo",
             "match": {
               "location": "tests\\steps\\productSteps.js:7"
             },
             "result": {
               "status": "passed",
-              "duration": 148598099
+              "duration": 121451798
             },
             "embeddings": [
               {
@@ -297,13 +297,13 @@
             "arguments": [],
             "keyword": "When ",
             "line": 5,
-            "name": "I add items to the cart",
+            "name": "User add items to the cart",
             "match": {
               "location": "tests\\steps\\productSteps.js:11"
             },
             "result": {
               "status": "passed",
-              "duration": 505520199
+              "duration": 504300898
             },
             "embeddings": [
               {
@@ -316,13 +316,13 @@
             "arguments": [],
             "keyword": "Then ",
             "line": 6,
-            "name": "I should see the selected items in the cart",
+            "name": "User should see the selected items in the cart",
             "match": {
               "location": "tests\\steps\\productSteps.js:32"
             },
             "result": {
               "status": "passed",
-              "duration": 145796498
+              "duration": 143475498
             },
             "embeddings": [
               {
@@ -336,7 +336,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 130649900
+              "duration": 138041199
             }
           }
         ],
