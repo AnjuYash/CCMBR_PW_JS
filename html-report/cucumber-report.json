@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1000199
+              "duration": 1318599
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 301599900
+              "duration": 231469098
             },
             "embeddings": [
               {
@@ -46,7 +46,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 112720198
+              "duration": 128974300
             },
             "embeddings": [
               {
@@ -65,7 +65,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 116233099
+              "duration": 110559500
             },
             "embeddings": [
               {
@@ -84,7 +84,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 115571199
+              "duration": 118209400
             },
             "embeddings": [
               {
@@ -103,7 +103,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 113907499
+              "duration": 114812599
             },
             "embeddings": [
               {
@@ -122,7 +122,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 115343199
+              "duration": 103719600
             },
             "embeddings": [
               {
@@ -136,7 +136,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 99716500
+              "duration": 104297900
             }
           }
         ],
@@ -166,7 +166,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 525899
+              "duration": 328399
             }
           },
           {
@@ -179,7 +179,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2573881899
+              "duration": 2677741699
             },
             "embeddings": [
               {
@@ -198,7 +198,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1815250100
+              "duration": 1556536699
             },
             "embeddings": [
               {
@@ -217,7 +217,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 175499700
+              "duration": 152403900
             },
             "embeddings": [
               {
@@ -231,7 +231,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 134153299
+              "duration": 141487999
             }
           }
         ],
@@ -271,7 +271,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 392799
+              "duration": 709500
             }
           },
           {
@@ -284,7 +284,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 121451798
+              "duration": 123107800
             },
             "embeddings": [
               {
@@ -303,7 +303,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 504300898
+              "duration": 500891299
             },
             "embeddings": [
               {
@@ -322,7 +322,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 143475498
+              "duration": 135121299
             },
             "embeddings": [
               {
@@ -336,7 +336,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 138041199
+              "duration": 132297300
             }
           }
         ],

@@ -7,7 +7,12 @@
     "test": "npx cucumber-js --format json:html-report/cucumber-report.json",
     "posttest": "node html-report/report.js"
   },
-  "keywords": ["playwright", "cucumber", "automation", "testing"],
+  "keywords": [
+    "playwright",
+    "cucumber",
+    "automation",
+    "testing"
+  ],
   "author": "Your Name",
   "license": "ISC",
   "devDependencies": {
